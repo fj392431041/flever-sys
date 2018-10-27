@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../flever-amazon/flever-amazon.iml" filepath="$PROJECT_DIR$/../flever-amazon/flever-amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flever-common/flever-common.iml" filepath="$PROJECT_DIR$/../flever-common/flever-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flever-config/flever-config.iml" filepath="$PROJECT_DIR$/../flever-config/flever-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flever-eureka/flever-eureka.iml" filepath="$PROJECT_DIR$/../flever-eureka/flever-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flever-sys.iml" filepath="$PROJECT_DIR$/flever-sys.iml" />
+    </modules>
+  </component>
+</project>

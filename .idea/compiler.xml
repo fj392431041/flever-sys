@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="flever-amazon" />
+        <module name="flever-config" />
+        <module name="flever-eureka" />
+        <module name="flever-sys" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="flever-amazon" target="1.8" />
+      <module name="flever-common" target="1.8" />
+      <module name="flever-config" target="1.8" />
+      <module name="flever-eureka" target="1.8" />
+      <module name="flever-sys" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

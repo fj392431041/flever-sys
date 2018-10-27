@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: flever-sys
+
+server:
+  port: ${flever.port.sys} #启动端口号
+
