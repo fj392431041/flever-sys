@@ -1,5 +1,6 @@
-package cn.com.flever.sys.ui;
+package cn.com.flever.sys.ui.login;
 
+import cn.com.flever.common.ui.BaseController;
 import cn.com.flever.sys.service.mapper.SysUserMapper;
 import cn.com.flever.sys.service.model.SysUser;
 import org.slf4j.Logger;
@@ -12,12 +13,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("sys")
-public class LoginController {
+public class LoginController extends BaseController{
 
   private final static Logger logger = LoggerFactory.getLogger(LoginController.class);
 
   @Autowired
   private SysUserMapper sysUserMapper;
+
 
   @Value("${spring.datasource.type}")
   private  String type;
@@ -35,4 +37,11 @@ public class LoginController {
     SysUser sysUser=sysUserMapper.selectByPrimaryKey(1L);
     return  sysUser;
   }
+
+  @RequestMapping("/hello")
+  public String sayHi()
+  {
+     return "hello sys";
+  }
+
 }

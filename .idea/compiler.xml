@@ -9,6 +9,7 @@
         <module name="flever-amazon" />
         <module name="flever-config" />
         <module name="flever-eureka" />
+        <module name="flever-gateway" />
         <module name="flever-sys" />
       </profile>
     </annotationProcessing>
@@ -17,6 +18,7 @@
       <module name="flever-common" target="1.8" />
       <module name="flever-config" target="1.8" />
       <module name="flever-eureka" target="1.8" />
+      <module name="flever-gateway" target="1.8" />
       <module name="flever-sys" target="1.8" />
     </bytecodeTargetLevel>
   </component>

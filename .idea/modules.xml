@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/../flever-common/flever-common.iml" filepath="$PROJECT_DIR$/../flever-common/flever-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../flever-config/flever-config.iml" filepath="$PROJECT_DIR$/../flever-config/flever-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/../flever-eureka/flever-eureka.iml" filepath="$PROJECT_DIR$/../flever-eureka/flever-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../flever-gateway/flever-gateway.iml" filepath="$PROJECT_DIR$/../flever-gateway/flever-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/flever-sys.iml" filepath="$PROJECT_DIR$/flever-sys.iml" />
     </modules>
   </component>

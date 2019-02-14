@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/../flever-config/pom.xml" />
         <option value="$PROJECT_DIR$/../flever-common/pom.xml" />
         <option value="$PROJECT_DIR$/../flever-amazon/pom.xml" />
+        <option value="$PROJECT_DIR$/../flever-gateway/pom.xml" />
       </list>
     </option>
   </component>
